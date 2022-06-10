@@ -14,7 +14,6 @@ class Settings extends React.Component {
                 bamboo: true,
                 circles: true,
                 honours: true,
-                threePlayer: false,
                 redFives: 0,
                 verbose: true,
                 showIndexes: false,
@@ -50,7 +49,6 @@ class Settings extends React.Component {
                     bamboo: savedSettings.bamboo,
                     circles: savedSettings.circles,
                     honours: savedSettings.honours,
-                    threePlayer: savedSettings.threePlayer,
                     redFives: 0,
                     verbose: savedSettings.verbose,
                     showIndexes: savedSettings.showIndexes,
@@ -133,13 +131,6 @@ class Settings extends React.Component {
                                 <Input className="form-check-input" type="checkbox" id="honours"
                                     checked={this.state.settings.honours} onChange={this.onSettingChanged} />
                                 <Label className="form-check-label" for="honours">{t("settings.honours")}</Label>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="form-check form-check-inline">
-                                <Input className="form-check-input" type="checkbox" id="threePlayer"
-                                    checked={this.state.settings.threePlayer} onChange={this.onSettingChanged} />
-                                <Label className="form-check-label" for="threePlayer">{t("settings.sanma")}</Label>
                             </Col>
                         </Row>
                         <Row>

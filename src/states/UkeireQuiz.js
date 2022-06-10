@@ -131,15 +131,11 @@ class UkeireQuiz extends React.Component {
     }
 
     /**
-     * Randomly chooses a seat for the player, between East, South, West, and North (unless it's three player)
+     * Randomly chooses a seat for the player, between East, South, West, and North
      * @returns {number} A number between 31 and 34
      */
     pickSeatWind() {
-        let possibilities = [31, 32, 33];
-        if (!this.state.settings.threePlayer) {
-            possibilities.push(34);
-        }
-
+        let possibilities = [31, 32, 33, 34];
         return getRandomItem(possibilities);
     }
 
@@ -157,7 +153,7 @@ class UkeireQuiz extends React.Component {
         history.unshift(new HistoryData(new LocalizedMessage("trainer.start", { hand: convertHandToTenhouString(hand) })));
 
         let players = [];
-        let numberOfPlayers = this.state.settings.threePlayer ? 3 : 4;
+        let numberOfPlayers = 4;
         seatWind = seatWind || this.pickSeatWind();
 
         for (let i = 0; i < numberOfPlayers; i++) {
@@ -268,12 +264,6 @@ class UkeireQuiz extends React.Component {
         if (this.state.settings.characters) {
             for (let i = 1; i < 10; i++) {
                 availableTiles[i] = 4;
-            }
-
-            if (this.state.settings.threePlayer) {
-                for (let i = 2; i < 9; i++) {
-                    availableTiles[i] = 0;
-                }
             }
         }
 

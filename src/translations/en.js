@@ -101,7 +101,6 @@ export const en = {
             circles: "Circles",
             bamboo: "Bamboo",
             honours: "Honours",
-            sanma: "Three player rules",
             verbose: "Verbose tile names (\"one of bamboo\" vs \"1s\")",
             showIndexes: "Show Tile Indexes",
             concise: "Concise history",

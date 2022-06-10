@@ -101,7 +101,6 @@ export const zh_CN = {
             circles: "饼子",
             bamboo: "索子",
             honours: "字牌",
-            sanma: "三麻",
             verbose: "不使用牌缩写（“一索” vs “1s”）",
             concise: "紧凑的手牌历史",
             spoilers: "显示最佳舍牌",

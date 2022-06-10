@@ -101,7 +101,6 @@ export const pt = {
             circles: "Circulos",
             bamboo: "Bambu",
             honours: "Honras",
-            sanma: "Regras de tres jogadores",
             verbose: "Nomes de pecas por extenso (\"um de bambu\" vs \"1s\")",
             showIndexes: "Mostrar indice das pecas",
             concise: "Historico conciso",

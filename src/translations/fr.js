@@ -101,7 +101,6 @@ export const fr = {
             circles: "Cercles",
             bamboo: "Bambous",
             honours: "Honneurs",
-            sanma: "Règles du mahjong à 3 joueurs",
             verbose: "Nom complet des tuiles (\"un de bambou\" ou \"1s\")",
             showIndexes: "Afficher les étiquettes de tuile",
             concise: "Historique abrégé",

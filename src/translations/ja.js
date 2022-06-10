@@ -97,7 +97,6 @@ export const ja = {
             circles: "筒子",
             bamboo: "索子",
             honours: "字牌",
-            sanma: "三麻",
             verbose: "牌を省略表記する(\"一索\" を \"1s\" にする)",
             showIndexes: "インデックスを表示",
             concise: "履歴を簡略表示",

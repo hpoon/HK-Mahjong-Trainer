@@ -101,7 +101,6 @@ export const pl = {
             circles: "Pinzu",
             bamboo: "Souzu",
             honours: "Honory",
-            sanma: "Zasady na 3 graczy",
             verbose: "Pełne nazwy kamieni (\"jeden Souzu\" vs \"1s\")",
             concise: "Skrócona historia",
             spoilers: "Pokazuj najlepszą opcję",
