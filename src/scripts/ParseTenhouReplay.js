@@ -93,14 +93,6 @@ export function parseRound(t, roundText, player) {
         remainingTiles[j] = Math.max(remainingTiles[j] - players[player].hand[j], 0);
     }
 
-    let doraRegex = /seed=".+?,.+?,.+?,.+?,.+?,(\d+)"/;
-    let dora = doraRegex.exec(roundText);
-
-    if (dora) {
-        dora = convertTenhouTilesToIndex(parseInt(dora[1]));
-        remainingTiles[dora]--;
-    }
-
     let regex = /<(\w{1})(.+?)\/>/g;
     let whoRegex = /who="(\d)"/;
     let turns = [];
@@ -113,8 +105,7 @@ export function parseRound(t, roundText, player) {
     currentTurn.message.appendLocalizedMessage("analyzer.startingHand",
         {
             hand: convertHandToTenhouString(players[player].hand),
-            count: calculateMinimumShanten(players[player].hand),
-            dora: convertIndexesToTenhouTiles(dora)
+            count: calculateMinimumShanten(players[player].hand)
         }
     );
 
@@ -135,19 +126,6 @@ export function parseRound(t, roundText, player) {
             }
 
             if (actionInfo.discard) {
-                if (actionInfo.player === 0) {
-                    // Might be DORA
-                    let doraRegex = /hai="(\d+?)"/;
-                    let doraMatch = doraRegex.exec(match[2]);
-
-                    if (doraMatch) {
-                        let newDoraIndicator = convertTenhouTilesToIndex(parseInt(doraMatch[1]));
-                        remainingTiles[newDoraIndicator]--;
-                        currentTurn.message.appendLocalizedMessage("analyzer.kandora", { tile: getTileAsText(t, newDoraIndicator) });
-                        continue;
-                    }
-                }
-
                 let discardIndex = convertTenhouTilesToIndex(parseInt(match[2]));
 
                 if (actionInfo.player === player) {

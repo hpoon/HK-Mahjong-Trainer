@@ -11,8 +11,6 @@ function ValueTileDisplay(props) {
             <Col xs="2" sm="1"><Tile className="discardTile" tile={props.roundWind} showIndexes={props.showIndexes} /></Col>
             <Col style={{ textAlign: "right" }} xs="2" sm="3" md="2"><span>{t("trainer.seatWind")}</span></Col>
             <Col xs="2" sm="1"><Tile className="discardTile" tile={props.seatWind} showIndexes={props.showIndexes} /></Col>
-            <Col style={{ textAlign: "right" }} xs="2" sm="3" md="3" lg="2"><span>{t("trainer.doraIndicator")}</span></Col>
-            <Col xs="2" sm="1"><Tile className="discardTile" tile={props.dora} showIndexes={props.showIndexes} /></Col>
         </Row>
     );
 }

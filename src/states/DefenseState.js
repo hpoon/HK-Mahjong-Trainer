@@ -31,7 +31,6 @@ class DefenseState extends React.Component {
             history: [],
             tilePool: [],
             discardCount: 0,
-            dora: 0,
             chartCollapsed: true,
             settings: {
                 verbose: true,
@@ -60,8 +59,6 @@ class DefenseState extends React.Component {
         let tilePool = [];
 
         let remainingTiles = ALL_TILES_REMAINING.slice();
-        let dora = randomInt(10, 1) + randomInt(3) * 10;
-        remainingTiles[dora]--;
 
         // Pick numberOfRiichis random players to be in riichi.
         let riichiPlayers = shuffleArray([1, 2, 3]).slice(0, this.state.settings.numberOfRiichis);
@@ -207,7 +204,6 @@ class DefenseState extends React.Component {
             tilePool: tilePool,
             history: [new HistoryData(new LocalizedMessage("trainer.start", { hand: convertHandToTenhouString(players[0].hand) }))],
             discardCount: 0,
-            dora: dora,
             lastDraw: -1,
             isComplete: false
         });

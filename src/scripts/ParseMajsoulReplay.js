@@ -73,14 +73,6 @@ export function parseRound(t, roundText, player) {
         remainingTiles[j] = Math.max(remainingTiles[j] - players[player].hand[j], 0);
     }
 
-    let doraRegex = /(\d[spmz])/;
-    let dora = doraRegex.exec(roundText);
-
-    if (dora) {
-        dora = convertStringTileToIndex(dora[1]);
-        remainingTiles[dora]--;
-    }
-
     let turns = [];
 
     let currentTurn = new ReplayTurn(
@@ -91,7 +83,6 @@ export function parseRound(t, roundText, player) {
         {
             hand: convertHandToTenhouString(players[player].hand),
             count: calculateMinimumShanten(players[player].hand),
-            dora: convertIndexesToTenhouTiles(dora)
         }
     );
 

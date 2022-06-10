@@ -15,7 +15,7 @@ class Settings extends React.Component {
                 circles: true,
                 honors: false,
                 threePlayer: false,
-                redFives: 3,
+                redFives: 0,
                 verbose: true,
                 showIndexes: false,
                 extraConcise: false,
@@ -51,7 +51,7 @@ class Settings extends React.Component {
                     circles: savedSettings.circles,
                     honors: savedSettings.honors,
                     threePlayer: savedSettings.threePlayer,
-                    redFives: savedSettings.redFives || 3,
+                    redFives: 0,
                     verbose: savedSettings.verbose,
                     showIndexes: savedSettings.showIndexes,
                     extraConcise: savedSettings.extraConcise,
@@ -140,14 +140,6 @@ class Settings extends React.Component {
                                 <Input className="form-check-input" type="checkbox" id="threePlayer"
                                     checked={this.state.settings.threePlayer} onChange={this.onSettingChanged} />
                                 <Label className="form-check-label" for="threePlayer">{t("settings.sanma")}</Label>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="form-check form-check-inline">
-                                <Label className="form-check-label" for="redFives">{t("settings.redFives")}&nbsp;</Label>
-                                <NumericInput className="form-check-input" type="number" id="redFives"
-                                    min={0} max={12} step={1}
-                                    value={this.state.settings.redFives} onChange={this.onSettingChanged} />
                             </Col>
                         </Row>
                         <Row>

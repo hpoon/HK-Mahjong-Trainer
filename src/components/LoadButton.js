@@ -13,7 +13,6 @@ class LoadButton extends React.Component {
         let tiles = 0;
 
         let draw = this.tryRegex(/(\d{1,2})t/, characters);
-        let dora = this.tryRegex(/(\d{1,2})d/, characters);
         let seatWind = this.tryRegex(/(\d)j/, characters);
         let roundWind = this.tryRegex(/(\d)[br]/, characters);
 
@@ -54,7 +53,6 @@ class LoadButton extends React.Component {
             hand,
             tiles,
             draw,
-            dora,
             seatWind,
             roundWind
         };

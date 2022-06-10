@@ -12,7 +12,6 @@ class RandomGameState extends React.Component {
             init: false,
             players: [],
             round: 0,
-            doraIndicator: 1,
             turn: 3,
             userSeat: 0
         }
@@ -98,17 +97,10 @@ class RandomGameState extends React.Component {
             players[player].discards.push(tile);
         }
 
-        let doraIndicator = 0;
-
-        do {
-            doraIndicator = Math.floor(Math.random() * 38);
-        } while (tilePool.indexOf(doraIndicator) === -1)
-
         this.setState({
             init: true,
             userSeat: userSeat,
             players: players,
-            doraIndicator: doraIndicator,
             turn: turn,
             round: round
         });
@@ -146,7 +138,6 @@ class RandomGameState extends React.Component {
                             round: t("roundName", ROUND_PARAMETERS[this.state.round]),
                             seat: t(SEAT_NAMES[this.state.userSeat])
                         })}</Row>
-                        <Row>{t("utils.dora", { tile: getTileAsText(t, this.state.doraIndicator, true) })}</Row>
                     </ListGroupItem>
                     {playerItems}
                 </ListGroup>

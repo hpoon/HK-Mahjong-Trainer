@@ -10,7 +10,6 @@ export const pl = {
             seven: "siedem",
             eight: "osiem",
             nine: "dziewięć",
-            redFive: "czerwona piątka",
             east: "Wschód",
             south: "Południe",
             west: "Zachód",
@@ -42,7 +41,6 @@ export const pl = {
             loadButtonLabel: "Wczytaj rękę",
             roundWind: "Wiatr Rundy:",
             seatWind: "Wiatr Gracza:",
-            doraIndicator: "Wskaźnik Dory:",
             copyHand: "Kopiuj rękę",
             copied: "Skopiowano!",
             error: {
@@ -104,7 +102,6 @@ export const pl = {
             bamboo: "Souzu",
             honors: "Honory",
             sanma: "Zasady na 3 graczy",
-            redFives: "Liczba czerwonych piątek:",
             verbose: "Pełne nazwy kamieni (\"jeden Souzu\" vs \"1s\")",
             concise: "Skrócona historia",
             spoilers: "Pokazuj najlepszą opcję",
@@ -220,8 +217,8 @@ export const pl = {
             tenhouLinkText: "[Analiza ukeire na Tenhou]",
             replayError: "Prześlij mi ten log, coś poszło nie tak.",
             noName: "Nieznany",
-            startingHand: "Twoja ręka startowa to {{hand}}. Masz {{count}} do tenpai. Wskaźnik Dory to {{dora}}.",
-            startingHand_plural: "Twoja ręka startowa to {{hand}}. Masz {{count}} do tenpai. Wskaźnik Dory to {{dora}}.",
+            startingHand: "Twoja ręka startowa to {{hand}}. Masz {{count}} do tenpai.",
+            startingHand_plural: "Twoja ręka startowa to {{hand}}. Masz {{count}} do tenpai.",
             unknownAction: "Hej, ten log ma coś czego nie wziąłem pod uwagę. Prześlij mi go, bym mógł to dodać.{{debugInfo}}",
             call: "Zameldowałeś {{tile}} żeby skompletować {{meld}}. ({{hand}})",
             callSameShanten: "Ten meldunek nie przybliżył Cię do tenpai.",
@@ -231,7 +228,6 @@ export const pl = {
             fold: "Masz {{shanten}} do tenpai, powinieneś się bronić.",
             probablyFold: "Masz jeden do tenpai. Rozważ obronę.",
             win: "Gracz {{number}} wygrał rozdanie.",
-            kandora: "Nowy wskaźnik Dory to {{tile}}.",
             draw: "Wyciąg: {{tile}}. ({{hand}})",
             chosenSafety: "Skala bezpieczństwa {{tile}} to {{rating}}. ({{- explanation}}) ",
             correctSafety: "To jest najbezpieczniejszy kamień.",
@@ -294,7 +290,6 @@ export const pl = {
             discards: "Odrzuty:",
             stateButtonLabel: "Generuj nową sytuację",
             info: "Jest kolejka {{turn}} w {{round}}. Jesteś {{seat}}.",
-            dora: "Wskaźnikiem Dory jest {{tile}}."
         }
     }
 }

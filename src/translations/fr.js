@@ -10,7 +10,6 @@ export const fr = {
             seven: "sept",
             eight: "huit",
             nine: "neuf",
-            redFive: "cinq rouge",
             east: "vent est",
             south: "vent sud",
             west: "vent ouest",
@@ -42,7 +41,6 @@ export const fr = {
             loadButtonLabel: "Charger une main",
             roundWind: "Vent du tour :",
             seatWind: "Vent du joueur :",
-            doraIndicator: "Indicateur de dora :",
             copyHand: "Copier la main",
             copied: "Copié !",
             error: {
@@ -104,7 +102,6 @@ export const fr = {
             bamboo: "Bambous",
             honors: "Honneurs",
             sanma: "Règles du mahjong à 3 joueurs",
-            redFives: "Nombre de cinq rouges:",
             verbose: "Nom complet des tuiles (\"un de bambou\" ou \"1s\")",
             showIndexes: "Afficher les étiquettes de tuile",
             concise: "Historique abrégé",
@@ -221,8 +218,8 @@ export const fr = {
             tenhouLinkText: "[Analyse de l'ukeire par Tenhou]",
             replayError: "Quelque chose s'est mal déroulé. Envoyez-moi ce replay.",
             noName: "Inconnu",
-            startingHand: "Votre main de départ est {{hand}}. Elle est à {{count}} tuile d'être prête. L'indicateur de dora est {{dora}}.",
-            startingHand_plural: "Votre main de départ est {{hand}}. Elle est à {{count}} tuiles d'être prête. L'indicateur de dora est {{dora}}.",
+            startingHand: "Votre main de départ est {{hand}}. Elle est à {{count}} tuile d'être prête.",
+            startingHand_plural: "Votre main de départ est {{hand}}. Elle est à {{count}} tuiles d'être prête.",
             unknownAction: "Hé ! Ce replay a quelque chose d'imprévu. Merci de me l'envoyer afin que je puisse y remédier. {{debugInfo}}",
             call: "Vous avez appelé le {{tile}} pour compléter {{meld}}. ({{hand}})",
             callSameShanten: "Cet appel ne vous a pas rapproché de tenpai.",
@@ -232,7 +229,6 @@ export const fr = {
             fold: "Vous êtes encore à {{shanten}} tuiles de tenpai. Vous devriez vous coucher.",
             probablyFold: "Vous êtes à une tuile de tenpai. Vous devriez envisager de vous coucher.",
             win: "Le joueur {{number}} a remporté la main.",
-            kandora: "Le nouvel indicateur de dora est le {{tile}}.",
             draw: "Vous avez pioché le {{tile}}. ({{hand}})",
             chosenSafety: "Le taux de sûreté du {{tile}} est de {{rating}}. ({{- explanation}}) ",
             correctSafety: "Il s'agissait de la tuile la plus sûre.",
@@ -295,7 +291,6 @@ export const fr = {
             discards: "Défausses :",
             stateButtonLabel: "Générer une nouvelle situation",
             info: "C'est le tour {{turn}} de la manche {{round}}. Vous êtes le joueur {{seat}}.",
-            dora: "L'indicateur de dora est le {{tile}}."
         }
     }
 }

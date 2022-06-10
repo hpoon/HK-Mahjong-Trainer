@@ -3,9 +3,8 @@ import { getRandomItem } from "./Utils";
 /**
  * Determines the best tile to discard when given tiles with equal ukeire.
  * @param {UkeireObject[]} ukeireObjects The ukeire objects for each discard.
- * @param {TileIndex} dora The current dora.
  */
-export function evaluateBestDiscard(ukeireObjects, dora = -1) {
+export function evaluateBestDiscard(ukeireObjects) {
     let ukeire = ukeireObjects.map(o => o.value);
     let bestUkeire = Math.max(...ukeire);
     let bests = [];
@@ -18,9 +17,6 @@ export function evaluateBestDiscard(ukeireObjects, dora = -1) {
 
     if (!bests.length) return -1;
     if (bests.length === 1) return bests[0];
-
-    // Avoid suggesting to discard the dora.
-    if (bests.indexOf(dora) > -1) bests.splice(bests.indexOf(dora), 1);
 
     // Suggest discarding winds first, then dragons, if any are present.
     if (bests.indexOf(32) > -1) return 32;

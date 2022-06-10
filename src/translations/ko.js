@@ -10,7 +10,6 @@ export const ko = {
             seven: "칠",
             eight: "팔",
             nine: "구",
-            redFive: "적오",
             east: "동",
             south: "남",
             west: "서",
@@ -42,7 +41,6 @@ export const ko = {
             loadButtonLabel: "손패 불러오기",
             roundWind: "장풍:",
             seatWind: "자풍:",
-            doraIndicator: "도라표시패:",
             copyHand: "손패 복사",
             copied: "복사했습니다!",
             error: {
@@ -100,7 +98,6 @@ export const ko = {
             bamboo: "삭수패",
             honors: "자패",
             sanma: "삼인 마작",
-            redFives: "적도라의 갯수:",
             verbose: "패 이름을 상세하게 표시 (\"1s\"대신 \"일삭\"으로 표시)",
             showIndexes: "인덱스 보기",
             concise: "손패 기록을 간략하게",
@@ -212,7 +209,7 @@ export const ko = {
             tenhouLinkText: "[천봉 유효패 분석기]",
             replayError: "이 리플레이를 저에게 보내주세요. 문제가 발생했습니다.",
             noName: "알 수 없음",
-            startingHand: "당신의 시작 손패는 {{hand}}입니다. 텐파이까지 {{count}}개의 패가 필요합니다. 도라표시패는 {{dora}}입니다.",
+            startingHand: "당신의 시작 손패는 {{hand}}입니다. 텐파이까지 {{count}}개의 패가 필요합니다.",
             unknownAction: "저기요, 이 리플레이는 제가 고려하지 못한 요소가 포함되어 있네요. 이 리플레이를 저에게 보내주시면 추가하겠습니다. {{debugInfo}}",
             call: "당신을 {{tile}}을(를) 울어 {{meld}}을(를) 만들었습니다. ({{hand}})",
             callSameShanten: "이 후로는 샹텐 수에 영향을 주지 못했습니다.",
@@ -222,7 +219,6 @@ export const ko = {
             fold: "당신은 아직 텐파이까지 {{shanten}}개의 타일이 필요합니다, 그러므로 베타오리를 해야합니다.",
             probablyFold: "당신은 이샹텐입니다. 베타오리를 고려하십시오.",
             win: "작사 {{number}}이(가) 화료했습니다.",
-            kandora: "새로운 도라표시패는 {{tile}}입니다.",
             draw: "당신은 {{tile}}을(를) 쯔모했습니다. ({{hand}})",
             chosenSafety: "{{tile}}의 안전도는 {{rating}}입니다. ({{- explanation}}) ",
             correctSafety: "가장 안전한 타패였습니다.",
@@ -285,7 +281,6 @@ export const ko = {
             discards: "버림패:",
             stateButtonLabel: "새 상태 생성",
             info: "{{round}} {{turn}}순 입니다. 당신은 {{seat}}가입니다.",
-            dora: "도라표시패는 {{tile}}입니다."
         }
     }
 }

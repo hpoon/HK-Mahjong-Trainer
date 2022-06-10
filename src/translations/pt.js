@@ -10,7 +10,6 @@ export const pt = {
             seven: "sete",
             eight: "oito",
             nine: "nove",
-            redFive: "cinco vermelho",
             east: "vento leste",
             south: "vento sul",
             west: "vento oeste",
@@ -42,7 +41,6 @@ export const pt = {
             loadButtonLabel: "Carregar Mao",
             roundWind: "Vento da Rodada:",
             seatWind: "Vento do Assento:",
-            doraIndicator: "Indicador de Dora:",
             copyHand: "Copiar mao",
             copied: "Copiada!",
             error: {
@@ -104,7 +102,6 @@ export const pt = {
             bamboo: "Bambu",
             honors: "Honras",
             sanma: "Regras de tres jogadores",
-            redFives: "Numero de Cincos Vermelhos:",
             verbose: "Nomes de pecas por extenso (\"um de bambu\" vs \"1s\")",
             showIndexes: "Mostrar indice das pecas",
             concise: "Historico conciso",
@@ -221,8 +218,8 @@ export const pt = {
             tenhouLinkText: "[Analise de Ukeire do Tenhou]",
             replayError: "Envie-me este replay, algo quebrou.",
             noName: "Deconhecido",
-            startingHand: "Sua mao inicial e {{hand}}. Esta a {{count}} peca de distancia de estar pronta. O indicador de dora e {{dora}}.",
-            startingHand_plural: "Sua mao inicial e {{hand}}. Esta a {{count}} pecas de distancia de estar pronta. O indicador de dora e {{dora}}.",
+            startingHand: "Sua mao inicial e {{hand}}. Esta a {{count}} peca de distancia de estar pronta.",
+            startingHand_plural: "Sua mao inicial e {{hand}}. Esta a {{count}} pecas de distancia de estar pronta.",
             unknownAction: "Hey, este replay tem algo que eu nao levei em consideracao. Por favor envie-me este replay para que eu possa adicionar isso. {{debugInfo}}",
             call: "Voce pediu o {{tile}} para completar {{meld}}. ({{hand}})",
             callSameShanten: "Essa chamado nao lhe deixou mais proximo de uma mao pronta.",
@@ -232,7 +229,6 @@ export const pt = {
             fold: "Voce ainda esta a {{shanten}} pecas de distancia de uma mao pronta, entao voce deveria abandonar a mao.",
             probablyFold: "Voce esta a uma peca de distancia da mao pronta. Voce deveria considerar abandonar a mao.",
             win: "O jogador {{number}} ganhou a rodada.",
-            kandora: "O novo indicador de dora e o {{tile}}.",
             draw: "Voce comprou {{tile}}. ({{hand}})",
             chosenSafety: "O nivel de seguranca do {{tile}} e {{rating}}. ({{- explanation}}) ",
             correctSafety: "Essa era a peca mais segura.",
@@ -295,7 +291,6 @@ export const pt = {
             discards: "Descartes:",
             stateButtonLabel: "Gerar Novo Estado",
             info: "e o turno {{turn}} em {{round}}. Voce e o jogador {{seat}}.",
-            dora: "O indicador de dora e o {{tile}}."
         }
     }
 }

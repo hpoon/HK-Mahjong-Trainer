@@ -10,7 +10,6 @@ export const zh_CN = {
             seven: "七",
             eight: "八",
             nine: "九",
-            redFive: "赤五",
             east: "东",
             south: "南",
             west: "西",
@@ -42,7 +41,6 @@ export const zh_CN = {
             loadButtonLabel: "加载手牌",
             roundWind: "场风：",
             seatWind: "自风：",
-            doraIndicator: "宝牌指示牌：",
             copyHand: "复制手牌",
             copied: "复制成功！",
             error: {
@@ -104,7 +102,6 @@ export const zh_CN = {
             bamboo: "索子",
             honors: "字牌",
             sanma: "三麻",
-            redFives: "赤五枚数：",
             verbose: "不使用牌缩写（“一索” vs “1s”）",
             concise: "紧凑的手牌历史",
             spoilers: "显示最佳舍牌",
@@ -220,8 +217,8 @@ export const zh_CN = {
             tenhouLinkText: "【天凤牌理】",
             replayError: "Send me this replay, something broke.",
             noName: "Unknown",
-            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready. The dora indicator is {{dora}}.",
-            startingHand_plural: "Your starting hand is {{hand}}. It's {{count}} tiles from ready. The dora indicator is {{dora}}.",
+            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready.",
+            startingHand_plural: "Your starting hand is {{hand}}. It's {{count}} tiles from ready.",
             unknownAction: "Hey, this replay has something I don't account for. Please send me this replay so I can add it. {{debugInfo}}",
             call: "You called the {{tile}} to complete {{meld}}. ({{hand}})",
             callSameShanten: "That call didn't bring you closer to ready.",
@@ -231,7 +228,6 @@ export const zh_CN = {
             fold: "You are still {{shanten}} tiles from ready, so you should fold.",
             probablyFold: "You are one tile from ready. You should consider folding.",
             win: "Player {{number}} won the round.",
-            kandora: "The new dora indicator is the {{tile}}.",
             draw: "自摸{{tile}}。（{{hand}}）",
             chosenSafety: "{{tile}}的安全等级是{{rating}}。（{{- explanation}}）",
             correctSafety: "那是最安全的牌。",
@@ -294,7 +290,6 @@ export const zh_CN = {
             discards: "Discards:",
             stateButtonLabel: "Generate New State",
             info: "It's turn {{turn}} in {{round}}. You are the {{seat}} player.",
-            dora: "The dora indicator is the {{tile}}."
         }
     }
 }

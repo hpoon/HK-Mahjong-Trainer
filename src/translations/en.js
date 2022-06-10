@@ -10,7 +10,6 @@ export const en = {
             seven: "seven",
             eight: "eight",
             nine: "nine",
-            redFive: "red five",
             east: "east wind",
             south: "south wind",
             west: "west wind",
@@ -42,7 +41,6 @@ export const en = {
             loadButtonLabel: "Load Hand",
             roundWind: "Round Wind:",
             seatWind: "Seat Wind:",
-            doraIndicator: "Dora Indicator:",
             copyHand: "Copy Hand",
             copied: "Copied!",
             error: {
@@ -104,7 +102,6 @@ export const en = {
             bamboo: "Bamboo",
             honors: "Honors",
             sanma: "Three player rules",
-            redFives: "Number of Red Fives:",
             verbose: "Verbose tile names (\"one of bamboo\" vs \"1s\")",
             showIndexes: "Show Tile Indexes",
             concise: "Concise history",
@@ -221,8 +218,8 @@ export const en = {
             tenhouLinkText: "[Tenhou Ukeire Analysis]",
             replayError: "Send me this replay, something broke.",
             noName: "Unknown",
-            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready. The dora indicator is {{dora}}.",
-            startingHand_plural: "Your starting hand is {{hand}}. It's {{count}} tiles from ready. The dora indicator is {{dora}}.",
+            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready.",
+            startingHand_plural: "Your starting hand is {{hand}}. It's {{count}} tiles from ready.",
             unknownAction: "Hey, this replay has something I don't account for. Please send me this replay so I can add it. {{debugInfo}}",
             call: "You called the {{tile}} to complete {{meld}}. ({{hand}})",
             callSameShanten: "That call didn't bring you closer to ready.",
@@ -232,7 +229,6 @@ export const en = {
             fold: "You are still {{shanten}} tiles from ready, so you should fold.",
             probablyFold: "You are one tile from ready. You should consider folding.",
             win: "Player {{number}} won the round.",
-            kandora: "The new dora indicator is the {{tile}}.",
             draw: "You drew the {{tile}}. ({{hand}})",
             chosenSafety: "The {{tile}}'s safety rating is {{rating}}. ({{- explanation}}) ",
             correctSafety: "That was the safest tile.",
@@ -295,7 +291,6 @@ export const en = {
             discards: "Discards:",
             stateButtonLabel: "Generate New State",
             info: "It's turn {{turn}} in {{round}}. You are the {{seat}} player.",
-            dora: "The dora indicator is the {{tile}}."
         }
     }
 }

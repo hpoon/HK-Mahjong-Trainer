@@ -10,7 +10,6 @@ export const ja = {
             seven: "七",
             eight: "八",
             nine: "九",
-            redFive: "赤五",
             east: "東",
             south: "南",
             west: "西",
@@ -42,7 +41,6 @@ export const ja = {
             loadButtonLabel: "手牌をロード",
             roundWind: "場風:",
             seatWind: "自風:",
-            doraIndicator: "ドラ表示牌:",
             copyHand: "手牌をコピー",
             copied: "コピーしました！",
             error: {
@@ -100,7 +98,6 @@ export const ja = {
             bamboo: "索子",
             honors: "字牌",
             sanma: "三麻",
-            redFives: "赤五索の枚数:",
             verbose: "牌を省略表記する(\"一索\" を \"1s\" にする)",
             showIndexes: "インデックスを表示",
             concise: "履歴を簡略表示",
@@ -212,7 +209,7 @@ export const ja = {
             tenhouLinkText: "[Tenhou Ukeire Analysis]",
             replayError: "Send me this replay, something broke.",
             noName: "Unknown",
-            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready. The dora indicator is {{dora}}.",
+            startingHand: "Your starting hand is {{hand}}. It's {{count}} tile from ready.",
             unknownAction: "Hey, this replay has something I don't account for. Please send me this replay so I can add it. {{debugInfo}}",
             call: "You called the {{tile}} to complete {{meld}}. ({{hand}})",
             callSameShanten: "That call didn't bring you closer to ready.",
@@ -222,7 +219,6 @@ export const ja = {
             fold: "You are still {{shanten}} tiles from ready, so you should fold.",
             probablyFold: "You are one tile from ready. You should consider folding.",
             win: "Player {{number}} won the round.",
-            kandora: "The new dora indicator is the {{tile}}.",
             draw: "You drew the {{tile}}. ({{hand}})",
             chosenSafety: "The {{tile}}'s safety rating is {{rating}}. ({{- explanation}}) ",
             correctSafety: "That was the safest tile.",
@@ -285,7 +281,6 @@ export const ja = {
             discards: "Discards:",
             stateButtonLabel: "Generate New State",
             info: "It's turn {{turn}} in {{round}}. You are the {{seat}} player.",
-            dora: "The dora indicator is the {{tile}}."
         }
     }
 }
