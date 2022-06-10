@@ -67,8 +67,6 @@ export const pl = {
                 optimalSpoiler: " {{tile}}",
                 best: " Najepszy wybór!",
                 exceptionalNoten: " Wszystkie zwycięskie kamienie są w Twojej ręce, więc nie masz jeszcze tenpai.",
-                furiten: " Furiten.",
-                furitenWarning: " Uważaj na możliwy furiten.",
                 exhausted: " Brak kamieni w murze. Następnym razem się uda! ",
                 draw: " Dobrany kamień: {{tile}}. "
             },
@@ -81,8 +79,6 @@ export const pl = {
                 optimalSpoiler: ", {{tile}}, ",
                 best: " Najlepszy wybór!",
                 exceptionalNoten: " Masz tenpai, ale wszystkie zwycięskie kamienie są w Twojej ręce. Większości odmian zasad nie uznaje takiego tenpai, więc musisz zmienić kształt ręki. ",
-                furiten: " Masz furitena. Nie możesz wygrać przez Ron, bo masz swój zwycięski kamień w rzece.",
-                furitenWarning: " Uważaj na możliwy furiten. Niektóre kamienie ulepszające rękę są w Twojej rzece. ",
                 exhausted: " Brak kamieni w murze. Następnym razem się uda! ",
                 draw: " Dobierasz {{tile}}. "
             }

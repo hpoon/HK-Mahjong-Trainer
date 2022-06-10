@@ -67,8 +67,6 @@ export const pt = {
                 optimalSpoiler: " {{tile}}",
                 best: " Essa foi a melhor escolha!",
                 exceptionalNoten: " Todas as suas pecas vitoriosas estao em sua mao, entao voce ainda nao esta em tenpai.",
-                furiten: " Furiten.",
-                furitenWarning: " Tome cuidado com furiten futuro.",
                 exhausted: " Nao ha mais pecas na muralha. Mais sorte na proxima vez! ",
                 draw: " Compra: {{tile}}. "
             },
@@ -81,8 +79,6 @@ export const pt = {
                 optimalSpoiler: ", o {{tile}}, ",
                 best: " Essa foi a melhor escolha!",
                 exceptionalNoten: " Sua mao esta pronta, mas todas as suas pecas vitoriosas estao em sua mao. Isto nao conta como pronto em quase todos os conjuntos de regras, entao voce precisara mudar sua mao.",
-                furiten: " Voce esta em furiten. Voce nao pode vencer esta mao por ron, porque voce tem uma peca vitoriosa em seus descartes.",
-                furitenWarning: " Tome cuidado com furiten futuro. Algumas das pecas que melhoram sua mao estao em seus descartes.",
                 exhausted: " Nao ha mais pecas na muralha. Mais sorte na proxima vez! ",
                 draw: " Voce comprou o {{tile}}. "
             }

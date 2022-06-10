@@ -67,8 +67,6 @@ export const zh_CN = {
                 optimalSpoiler: "{{tile}}",
                 best: "这是最佳的舍牌！",
                 exceptionalNoten: "你所听的牌都在手牌里，所以是空听。",
-                furiten: "振听。",
-                furitenWarning: "请注意可能会振听。",
                 exhausted: "牌山已经没有牌了，下次好运！",
                 draw: "你自摸：{{tile}}。"
             },
@@ -81,8 +79,6 @@ export const zh_CN = {
                 optimalSpoiler: "{{tile}}。",
                 best: "这是最佳的舍牌！",
                 exceptionalNoten: "你听牌了，但是你所听的牌都在手牌里。大部分规则下都不算听牌，所以你需要改变你的手牌。",
-                furiten: "你现在处于振听状态。你不能荣和，因为你有一张要和的牌在你舍牌里。",
-                furitenWarning: "请注意可能会振听。能改善手牌的一些牌在你的舍牌里。",
                 exhausted: "牌山已经没有牌了，下次好运！",
                 draw: "你自摸{{tile}}。"
             }

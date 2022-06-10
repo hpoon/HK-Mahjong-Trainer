@@ -66,8 +66,6 @@ export const ko = {
                 optimalSpoiler: " {{tile}}",
                 best: " 가장 좋은 선택이었습니다!",
                 exceptionalNoten: " 화료패가 모두 손패에 있어 텐파이하지 못했습니다.",
-                furiten: " 후리텐.",
-                furitenWarning: " 후리텐을 조심하세요.",
                 exhausted: " 패산에 남은 패가 없습니다. 다음 기회를 노려봅시다! ",
                 draw: " 쯔모: {{tile}}. "
             },
@@ -79,8 +77,6 @@ export const ko = {
                 optimalSpoiler: " {{tile}}(으)로, ",
                 best: " 지금 버린 패가 최대 효율이었습니다!",
                 exceptionalNoten: " 텐파이했지만, 화료패가 모두 당신의 손패에 있습니다. 대부분의 규칙에서 이러한 형태는 텐파이로 인정하지 않습니다. 대기를 바꿔봅시다.",
-                furiten: " 후리텐이 되고 말았습니다 이 손패로는 론 화료가 불가능합니다. 화료패를 이미 버렸기 때문입니다.",
-                furitenWarning: " 후리텐을 조심하세요. 텐파이하기 위한 유효패중 일부가 이미 당신의 버림패에 있습니다.",
                 exhausted: " 패산에 남은 패가 없습니다. 다음 기회를 노려봅시다! ",
                 draw: " 쯔모한 패는 {{tile}}입니다. "
             }

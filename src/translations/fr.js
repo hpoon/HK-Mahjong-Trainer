@@ -67,8 +67,6 @@ export const fr = {
                 optimalSpoiler: " {{tile}}",
                 best: " Il s'agissait du meilleur choix !",
                 exceptionalNoten: " Toutes vos tuiles gagnantes se trouvent dans votre main ; vous n'êtes donc pas encore tenpai.",
-                furiten: " Furiten.",
-                furitenWarning: " Méfiez-vous d'un furiten à venir.",
                 exhausted: " Il ne reste plus aucune tuile dans le mur. Vous aurez plus de chance la prochaine fois ! ",
                 draw: " Pioche : {{tile}}. "
             },
@@ -81,8 +79,6 @@ export const fr = {
                 optimalSpoiler: ", le {{tile}}, ",
                 best: " Il s'agissait du meilleur choix !",
                 exceptionalNoten: " Votre main est prête, mais toutes vos tuiles gagnantes sont dans votre main. Cela ne compte pas comme prêt dans presque toutes les règles, vous devrez donc changer votre main.",
-                furiten: " Vous êtes en état de furiten. Vous ne pouvez pas gagner cette main par ron, car l'une de vos tuiles gagnantes se trouve dans votre défausse.",
-                furitenWarning: " Méfiez-vous d'un futur furiten. Certaines tuiles qui amélioreraient votre main sont déjà dans votre défausse.",
                 exhausted: " Il ne reste plus aucune tuile dans le mur. Vous aurez plus de chance la prochaine fois ! ",
                 draw: " Vous avez pioché un {{tile}}. "
             }

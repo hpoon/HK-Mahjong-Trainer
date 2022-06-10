@@ -66,8 +66,6 @@ export const ja = {
                 optimalSpoiler: " {{tile}}",
                 best: " 最善手でした！",
                 exceptionalNoten: " あがり牌がすべて手牌にあるため、テンパイになりません。",
-                furiten: " フリテン",
-                furitenWarning: " フリテンに注意！",
                 exhausted: " 山牌が無くなりました。次の手で頑張りましょう！",
                 draw: " ツモ: {{tile}}"
             },
@@ -79,8 +77,6 @@ export const ja = {
                 optimalSpoiler: "{{tile}}で、",
                 best: " 今の捨て牌は、最大効率でした!",
                 exceptionalNoten: " テンパイ形になりましたが、あがり牌がすべて自分の手の中にあります。ほとんどのルールでは、この形はテンパイとして認められません。待ち受け方を変えましょう。",
-                furiten: " フリテンになってしまいました。この手はロンあがりが出来ません。なぜなら、あがり牌を既に捨ててしまっているからです。",
-                furitenWarning: " フリテンに要注意！テンパイに向かう上で有効な牌のいくつかが、既に捨て牌にあります。",
                 exhausted: " 山に牌がなくなってしまいました。次の手で頑張りましょう！ ",
                 draw: " 次にツモった牌は {{tile}} です。 "
             }

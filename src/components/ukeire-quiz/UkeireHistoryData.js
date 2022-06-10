@@ -46,14 +46,6 @@ export default class UkeireHistoryData extends HistoryData {
             result += t(`history.${mode}.exceptionalNoten`);
         }
 
-        if (this.isFuriten()) {
-            if (this.shanten <= 0) {
-                result += t(`history.${mode}.furiten`);
-            } else {
-                result += t(`history.${mode}.furitenWarning`);
-            }
-        }
-
         if (this.shanten > 0) {
             if (this.drawnTile === -1) {
                 result += t(`history.${mode}.exhausted`);
@@ -81,10 +73,5 @@ export default class UkeireHistoryData extends HistoryData {
         }
 
         return className;
-    }
-
-    /** Returns whether the hand is in furiten, or might be later. */
-    isFuriten() {
-        return this.chosenUkeire.tiles.some(tile => this.discards.includes(tile));
     }
 }

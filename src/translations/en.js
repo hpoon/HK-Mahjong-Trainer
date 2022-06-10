@@ -67,8 +67,6 @@ export const en = {
                 optimalSpoiler: " {{tile}}",
                 best: " That was the best choice!",
                 exceptionalNoten: " All of your winning tiles are in your hand, so you aren't tenpai yet.",
-                furiten: " Furiten.",
-                furitenWarning: " Be careful of future furiten.",
                 exhausted: " There are no tiles left in the wall. Better luck next time! ",
                 draw: " Draw: {{tile}}. "
             },
@@ -81,8 +79,6 @@ export const en = {
                 optimalSpoiler: ", the {{tile}}, ",
                 best: " That was the best choice!",
                 exceptionalNoten: " Your hand is ready, but all of your winning tiles are in your hand. This doesn't count as ready in almost all rulesets, so you'll need to change your hand.",
-                furiten: " You are in furiten. You cannot win this hand by ron, because you have a winning tile in your discards.",
-                furitenWarning: " Be careful of future furiten. Some of the tiles that improve your hand are in your discards.",
                 exhausted: " There are no tiles left in the wall. Better luck next time! ",
                 draw: " You drew the {{tile}}. "
             }
