@@ -23,7 +23,7 @@ class Settings extends React.Component {
                 reshuffle: true,
                 simulate: false,
                 exceptions: true,
-                minShanten: 0,
+                minFan: 3,
                 sort: true,
                 blind: false,
                 useTimer: false,
@@ -59,7 +59,7 @@ class Settings extends React.Component {
                     reshuffle: savedSettings.reshuffle,
                     simulate: savedSettings.simulate,
                     exceptions: savedSettings.exceptions,
-                    minShanten: savedSettings.minShanten || 0,
+                    minFan: savedSettings.minFan || 3,
                     sort: savedSettings.sort === undefined ? true : savedSettings.sort,
                     blind: savedSettings.blind,
                     useTimer: savedSettings.useTimer,
@@ -193,11 +193,11 @@ class Settings extends React.Component {
                         </Row>
                         <Row>
                             <Col className="form-check form-check-inline">
-                                <Label className="form-check-label" for="minShanten">{t("settings.minShanten")}&nbsp;</Label>
-                                <NumericInput className="form-check-input" type="number" id="minShanten"
-                                    min={0} max={4} step={1}
-                                    value={this.state.settings.minShanten} onChange={this.onSettingChanged} />
-                                <span className="blackText">&nbsp;{t("settings.minShantenLimit")}</span>
+                                <Label className="form-check-label" for="minFan">{t("settings.minFan")}&nbsp;</Label>
+                                <NumericInput className="form-check-input" type="number" id="minFan"
+                                    min={0} max={10} step={1}
+                                    value={this.state.settings.minFan} onChange={this.onSettingChanged} />
+                                <span className="blackText">&nbsp;{t("settings.minFanLimit")}</span>
                             </Col>
                         </Row>
                         <Row>

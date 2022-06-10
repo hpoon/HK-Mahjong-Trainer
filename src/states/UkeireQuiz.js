@@ -215,56 +215,45 @@ class UkeireQuiz extends React.Component {
         let history = [];
         let hand, availableTiles, tilePool;
 
-        let minShanten = this.state.settings.minShanten;
-        minShanten = Math.max(0, minShanten);
-
         // Count how many suits are currently enabled.
         let allowedSuits = +this.state.settings.honours
             + +this.state.settings.bamboo
             + +this.state.settings.characters
             + +this.state.settings.circles;
 
-        minShanten = Math.min(minShanten, allowedSuits);
-
         if (!this.state.settings.reshuffle && this.state.hand) {
             this.discardHand();
             let remainingTiles = this.state.remainingTiles.slice();
 
-            do {
-                let generationResult = generateHand(remainingTiles);
-                hand = generationResult.hand;
-                availableTiles = generationResult.availableTiles;
-                tilePool = generationResult.tilePool;
-
-                if (!hand) break;
-            } while (calculateMinimumShanten(hand) < minShanten)
-
-            if (!hand) {
-                history.push(new HistoryData(new LocalizedMessage("trainer.error.wallEmptyShuffle")));
-                // Continues into the normal flow, rebuilding the wall.
-            }
-            else {
-                this.setNewHandState(hand, availableTiles, tilePool, history);
-                return;
-            }
-        }
-
-        let remainingTiles = this.getStartingTiles();
-        do {
             let generationResult = generateHand(remainingTiles);
             hand = generationResult.hand;
             availableTiles = generationResult.availableTiles;
             tilePool = generationResult.tilePool;
 
             if (!hand) {
-                history.push(new HistoryData(new LocalizedMessage("trainer.error.wallEmpty")));
-
-                this.setState({
-                    history: history
-                });
+                history.push(new HistoryData(new LocalizedMessage("trainer.error.wallEmptyShuffle")));
+                // Continues into the normal flow, rebuilding the wall.
+            } else {
+                this.setNewHandState(hand, availableTiles, tilePool, history);
                 return;
             }
-        } while (calculateMinimumShanten(hand) < minShanten)
+        }
+
+        let remainingTiles = this.getStartingTiles();
+        
+        let generationResult = generateHand(remainingTiles);
+        hand = generationResult.hand;
+        availableTiles = generationResult.availableTiles;
+        tilePool = generationResult.tilePool;
+
+        if (!hand) {
+            history.push(new HistoryData(new LocalizedMessage("trainer.error.wallEmpty")));
+
+            this.setState({
+                history: history
+            });
+            return;
+        }
 
         this.setNewHandState(hand, availableTiles, tilePool, history);
     }
