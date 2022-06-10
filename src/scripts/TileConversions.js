@@ -52,8 +52,8 @@ const images = [
 const valueKeys = ["values.redFive", "values.one", "values.two", "values.three", "values.four", "values.five", "values.six", "values.seven", "values.eight", "values.nine"];
 /** Array of localization keys for each suit. */
 const suitKeys = ["suits.characters", "suits.circles", "suits.bamboo"];
-/** Array of localization keys for each honor tile value. */
-const honorKeys = ["values.hidden", "values.east", "values.south", "values.west", "values.north", "values.white", "values.green", "values.red"];
+/** Array of localization keys for each honour tile value. */
+const honourKeys = ["values.hidden", "values.east", "values.south", "values.west", "values.north", "values.white", "values.green", "values.red"];
 
 /**
  * Gets the png image for the given tile index for use in src tags.
@@ -73,7 +73,7 @@ export function getTileImage(index) {
  */
 export function getTileAsText(t, index, verbose = true) {
     if (index >= 30) {
-        return t(honorKeys[index - 30]);
+        return t(honourKeys[index - 30]);
     }
 
     if (verbose) {

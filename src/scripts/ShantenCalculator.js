@@ -41,16 +41,16 @@ export function calculateMinimumShanten(handToCheck, minimumShanten = -2) {
  * @param {TileCounts} handToCheck The hand to calculate the shanten of.
  */
 export function calculateKnittedShanten(handToCheck) {
-    let honorsCount = 0;
+    let honoursCount = 0;
 
     for (let i = 31; i < handToCheck.length; i++) {
         if (handToCheck[i] >= 1) {
-            honorsCount++;
+            honoursCount++;
         }
     }
 
     let bestKnittedStraight = findMostViableKnittedStraight(handToCheck);
-    let knittedAndHonorsShanten = 13 - bestKnittedStraight.length - honorsCount;
+    let knittedAndHonoursShanten = 13 - bestKnittedStraight.length - honoursCount;
 
     let hand = handToCheck.slice();
     for (let i = 0; i < bestKnittedStraight.length; i++) {
@@ -61,7 +61,7 @@ export function calculateKnittedShanten(handToCheck) {
     let standardShanten = calculateStandardShanten(hand);
     let combinedShanten = standardShanten - Math.floor(bestKnittedStraight / 3) * 2;
 
-    return Math.min(combinedShanten, knittedAndHonorsShanten);
+    return Math.min(combinedShanten, knittedAndHonoursShanten);
 }
 
 /**

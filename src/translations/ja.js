@@ -96,7 +96,7 @@ export const ja = {
             characters: "萬子",
             circles: "筒子",
             bamboo: "索子",
-            honors: "字牌",
+            honours: "字牌",
             sanma: "三麻",
             verbose: "牌を省略表記する(\"一索\" を \"1s\" にする)",
             showIndexes: "インデックスを表示",

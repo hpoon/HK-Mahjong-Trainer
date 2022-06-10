@@ -80,7 +80,7 @@ export function evaluateDiscardSafety(hand, opponentDiscards, remainingTiles, ti
         }
 
         if (i > 30) {
-            // Honor
+            // Honour
             switch (remainingTiles[i]) {
                 case 0:
                     safetyRanks[i] = 14; break;

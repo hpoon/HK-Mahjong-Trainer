@@ -100,7 +100,7 @@ export const fr = {
             characters: "Caractères",
             circles: "Cercles",
             bamboo: "Bambous",
-            honors: "Honneurs",
+            honours: "Honneurs",
             sanma: "Règles du mahjong à 3 joueurs",
             verbose: "Nom complet des tuiles (\"un de bambou\" ou \"1s\")",
             showIndexes: "Afficher les étiquettes de tuile",

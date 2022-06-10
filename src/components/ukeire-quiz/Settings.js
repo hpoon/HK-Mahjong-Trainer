@@ -13,7 +13,7 @@ class Settings extends React.Component {
                 characters: true,
                 bamboo: true,
                 circles: true,
-                honors: false,
+                honours: true,
                 threePlayer: false,
                 redFives: 0,
                 verbose: true,
@@ -49,7 +49,7 @@ class Settings extends React.Component {
                     characters: savedSettings.characters,
                     bamboo: savedSettings.bamboo,
                     circles: savedSettings.circles,
-                    honors: savedSettings.honors,
+                    honours: savedSettings.honours,
                     threePlayer: savedSettings.threePlayer,
                     redFives: 0,
                     verbose: savedSettings.verbose,
@@ -130,9 +130,9 @@ class Settings extends React.Component {
                                 <Label className="form-check-label" for="bamboo">{t("settings.bamboo")}</Label>
                             </Col>
                             <Col className="form-check form-check-inline">
-                                <Input className="form-check-input" type="checkbox" id="honors"
-                                    checked={this.state.settings.honors} onChange={this.onSettingChanged} />
-                                <Label className="form-check-label" for="honors">{t("settings.honors")}</Label>
+                                <Input className="form-check-input" type="checkbox" id="honours"
+                                    checked={this.state.settings.honours} onChange={this.onSettingChanged} />
+                                <Label className="form-check-label" for="honours">{t("settings.honours")}</Label>
                             </Col>
                         </Row>
                         <Row>

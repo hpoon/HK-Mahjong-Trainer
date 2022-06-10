@@ -96,7 +96,7 @@ export const ko = {
             characters: "만수패",
             circles: "통수패",
             bamboo: "삭수패",
-            honors: "자패",
+            honours: "자패",
             sanma: "삼인 마작",
             verbose: "패 이름을 상세하게 표시 (\"1s\"대신 \"일삭\"으로 표시)",
             showIndexes: "인덱스 보기",

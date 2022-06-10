@@ -219,7 +219,7 @@ class UkeireQuiz extends React.Component {
         minShanten = Math.max(0, minShanten);
 
         // Count how many suits are currently enabled.
-        let allowedSuits = +this.state.settings.honors
+        let allowedSuits = +this.state.settings.honours
             + +this.state.settings.bamboo
             + +this.state.settings.characters
             + +this.state.settings.circles;
@@ -300,7 +300,7 @@ class UkeireQuiz extends React.Component {
             }
         }
 
-        if (this.state.settings.honors) {
+        if (this.state.settings.honours) {
             for (let i = 31; i < 38; i++) {
                 availableTiles[i] = 4;
             }

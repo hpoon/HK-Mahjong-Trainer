@@ -100,7 +100,7 @@ export const pl = {
             characters: "Manzu",
             circles: "Pinzu",
             bamboo: "Souzu",
-            honors: "Honory",
+            honours: "Honory",
             sanma: "Zasady na 3 graczy",
             verbose: "Pełne nazwy kamieni (\"jeden Souzu\" vs \"1s\")",
             concise: "Skrócona historia",
