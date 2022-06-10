@@ -110,7 +110,6 @@ export const zh_CN = {
             minFan: "幾多番起糊：",
             minFanLimit: "(最高番：10)",
             sort: "自动理牌",
-            blind: "隐藏手牌",
             useTimer: "启用计时器",
             time: "每个决定的时间:",
             extraTime: "每只手都需要额外的时间:",

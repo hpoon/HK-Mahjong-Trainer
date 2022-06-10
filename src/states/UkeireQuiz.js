@@ -529,8 +529,6 @@ class UkeireQuiz extends React.Component {
 
     render() {
         let { t } = this.props;
-        let blind = this.state.players.length && this.state.players[0].discards.length && this.state.settings.blind && !this.state.isComplete;
-
         return (
             <Container>
                 <Settings onChange={this.onSettingsChanged} />
@@ -546,13 +544,11 @@ class UkeireQuiz extends React.Component {
                     ? <Hand tiles={this.state.hand}
                         lastDraw={this.state.lastDraw}
                         onTileClick={this.onTileClicked}
-                        showIndexes={this.state.settings.showIndexes && !blind}
-                        blind={blind} />
+                        showIndexes={this.state.settings.showIndexes} />
                     : <SortedHand tiles={this.state.shuffle}
                         lastDraw={this.state.lastDraw}
                         onTileClick={this.onTileClicked}
-                        showIndexes={this.state.settings.showIndexes && !blind}
-                        blind={blind} />
+                        showIndexes={this.state.settings.showIndexes} />
                 }
                 {this.state.settings.useTimer ?
                     <Row className="mt-2" style={{justifyContent:'flex-end', marginRight:1}}><span>{this.state.currentTime.toFixed(1)} + {this.state.currentBonus.toFixed(1)}</span></Row>

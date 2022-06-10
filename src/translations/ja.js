@@ -107,7 +107,6 @@ export const ja = {
             minFan: "最小番:",
             minFanLimit: "(最大番: 10)",
             sort: "自動理牌",
-            blind: "手牌を隠す",
             useTimer: "タイマーを使う",
             time: "標準の持ち時間:",
             extraTime: "予備の持ち時間:",

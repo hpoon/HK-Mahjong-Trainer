@@ -111,7 +111,6 @@ export const en = {
             minFan: "Minimum fan:",
             minFanLimit: "(Maximum: 10)",
             sort: "Sort hand",
-            blind: "Conceal hand tiles",
             useTimer: "Use timer",
             time: "Time per discard:",
             extraTime: "Bonus time per hand:",

@@ -24,7 +24,6 @@ class Settings extends React.Component {
                 exceptions: true,
                 minFan: 3,
                 sort: true,
-                blind: false,
                 useTimer: false,
                 time: 5,
                 extraTime: 10,
@@ -59,7 +58,6 @@ class Settings extends React.Component {
                     exceptions: savedSettings.exceptions,
                     minFan: savedSettings.minFan || 3,
                     sort: savedSettings.sort === undefined ? true : savedSettings.sort,
-                    blind: savedSettings.blind,
                     useTimer: savedSettings.useTimer,
                     time: savedSettings.time || 5,
                     extraTime: savedSettings.extraTime === undefined ? 10 : savedSettings.extraTime
@@ -196,13 +194,6 @@ class Settings extends React.Component {
                                 <Input className="form-check-input" type="checkbox" id="sort"
                                     checked={this.state.settings.sort} onChange={this.onSettingChanged} />
                                 <Label className="form-check-label" for="sort">{t("settings.sort")}</Label>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="form-check form-check-inline">
-                                <Input className="form-check-input" type="checkbox" id="blind"
-                                    checked={this.state.settings.blind} onChange={this.onSettingChanged} />
-                                <Label className="form-check-label" for="blind">{t("settings.blind")}</Label>
                             </Col>
                         </Row>
                         <Row>

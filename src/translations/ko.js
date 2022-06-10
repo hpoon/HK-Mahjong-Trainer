@@ -107,7 +107,6 @@ export const ko = {
             minFan: "최소 점수:",
             minFanLimit: "(최대 점수: 10)",
             sort: "손패 자동 정렬",
-            blind: "손패 숨기기",
             useTimer: "타이머 사용",
             time: "결정 당 시간 제한:",
             extraTime: "추가 시간:",

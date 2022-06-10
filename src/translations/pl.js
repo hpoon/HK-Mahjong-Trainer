@@ -110,7 +110,6 @@ export const pl = {
             minFan: "Minimalny fan:",
             minFanLimit: "(Maximalny fan: 10)",
             sort: "Sortuj rękę",
-            blind: "Zakryj rękę",
             useTimer: "Włączyć timer",
             time: "Czas na każdą decyzję:",
             extraTime: "Dodatkowy czas na każde rozdanie:",

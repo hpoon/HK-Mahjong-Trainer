@@ -111,7 +111,6 @@ export const fr = {
             minFan: "Fan minimal:",
             minFanLimit: "(maximum : 10)",
             sort: "Trier la main",
-            blind: "Cacher les tuiles de la main",
             useTimer: "Activer la minuterie",
             time: "Temps pour défaussé:",
             extraTime: "Temps bonus pour main:",

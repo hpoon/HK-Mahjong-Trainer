@@ -111,7 +111,6 @@ export const pt = {
             minFan: "Score minimo da mao inicial:",
             minFanLimit: "(maximo: 10)",
             sort: "Organizar mao",
-            blind: "Ocultar pecas da mao",
             useTimer: "Habilitar cronômetro",
             time: "Tempo para cada decisão:",
             extraTime: "Tempo extra para cada mao:",
